@@ -1,4 +1,4 @@
-import { addSession } from "../repositories/url.repository";
+import { addSession } from "../repositories/url.repository.js";
 
 export async function authValidation(req, res, next){
     try{
